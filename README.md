@@ -2,7 +2,7 @@
 
 Google Apps Script to add ZLEMA (Zero Lag Exponential Moving Averae) and EMA (Exponential Moving Average) functions to Google Sheets
 
-![Screenshot of google-apps-script-zlema working on Google Sheets](docs/screenshot.png "Screenshot of google-apps-script-zlema working on Google Sheets")
+![Screenshot of google-apps-script-zlema working on Google Sheets](doc/screenshot.png "Screenshot of google-apps-script-zlema working on Google Sheets")
 
 ## Usage
 
