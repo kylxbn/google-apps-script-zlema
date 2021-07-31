@@ -54,7 +54,7 @@ where
 
 ## Inspiration
 
-I wanted to see the daily moving average of my weight as I am undergoing calorie reduction. I wanted to see something more responsive than SMA, but the best option, ZLEMA, is not available in Google Sheets, and finding code on how to compute it is very difficult, not to mention that most articles talk about ZLEMA for the purposes of the stock market or something. That's why even if I were to see a formula, I have not idea how to implement it since I'm a software engineer, not a statistician or a stock market trader. So to get it working and to help other people who may be looking for something like this, I tried to make this.
+I wanted to see the daily moving average of my weight as I am undergoing calorie reduction. I wanted to see something more responsive than SMA, but the best option, ZLEMA, is not available in Google Sheets, and finding code on how to compute it is very difficult, not to mention that most articles talk about ZLEMA for the purposes of the stock market or something. That's why even if I were to see a formula, I have no idea how to implement it since I'm a software engineer, not a statistician or a stock market trader. So to get it working and to help other people who may be looking for something like this, I tried to make this.
 
 ## License
 
