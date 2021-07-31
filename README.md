@@ -1,6 +1,6 @@
 # google-apps-script-zlema
 
-Google Apps Script to add ZLEMA (Zero Lag Exponential Moving Averae) and EMA (Exponential Moving Average) functions to Google Sheets
+Google Apps Script to add ZLEMA (Zero Lag Exponential Moving Average) and EMA (Exponential Moving Average) functions to Google Sheets
 
 ![Screenshot of google-apps-script-zlema working on Google Sheets](doc/screenshot.png "Screenshot of google-apps-script-zlema working on Google Sheets")
 
@@ -24,7 +24,7 @@ This will compute the Zero Lag Exponential Moving Average for the input data. It
 
 where
 
-* `range` is range of values in A1 notation (for example, A5:A45). Currently, this only supports vertical ranges which are 1 cell wide. If the period is less than the size of the range, then an SMA for the whole range is calculated instead. It is highly recommended to give the whole data (from the start) up to the day you want to get the current average, as that is how ZLEMA works.
+* `range` is range of values in A1 notation (for example, A5:A45). Currently, this only supports vertical ranges which are 1 cell wide. If the period is less than the size of the range, then an SMA for the whole range is calculated instead. Giving the whole data (from the start) up to the day you want to get the current average is highly recommended, as that is how ZLEMA works.
 * `period` is the size of the data to average. The higher the period, the more smooth the average will be. The `period` should be less than the size of the `range`, else, an SMA will be computed instead.
 
 #### EMA
@@ -37,7 +37,7 @@ This will compute the Exponential Moving Average for the input data. It will giv
 
 where
 
-* `range` is range of values in A1 notation (for example, A5:A45). Currently, this only supports vertical ranges which are 1 cell wide. If the period is less than the size of the range, then an SMA for the whole range is calculated instead. It is highly recommended to give the whole data (from the start) up to the day you want to get the current average, as that is how ZLEMA works.
+* `range` is range of values in A1 notation (for example, A5:A45). Currently, this only supports vertical ranges which are 1 cell wide. If the period is less than the size of the range, then an SMA for the whole range is calculated instead. Giving the whole data (from the start) up to the day you want to get the current average is highly recommended, as that is how ZLEMA works.
 * `period` is the size of the data to average. The higher the period, the more smooth the average will be. The `period` should be less than the size of the `range`, else, an SMA will be computed instead.
 
 #### SMA
@@ -60,7 +60,7 @@ I wanted to see the daily moving average of my weight as I am undergoing calorie
 
 Since this code looks like it is sacred and is kept secret by the "stock trading guys" if there even is such a thing, I aim to make this code very accessible to everyone, so that everyone who wants to use ZLEMA will be able to do so without looking for articles and getting frustrated with hard to understand formulas.
 
-Contribution is very much encouraged. As long as you tested it and it works, just send your pull request and I will definitely accept it. Thanks for helping to make ZLEMA accessible to everyone!
+Contribution is very much encouraged. As long as you tested it, and it works, just send your pull request, and I will definitely accept it. Thanks for helping to make ZLEMA accessible to everyone!
 
 ```
 google-apps-script-zlema - Compute ZLEMA with Google Sheets
